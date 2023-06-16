@@ -1,8 +1,8 @@
 //invoco las clases
 
-import { Proveedor } from './assets/Proveedor.js';
-import { TipoProveedor } from './assets/Tipo_proveedor.js';
-import { Articulo } from './assets/Articulo.js';
+import { Proveedor } from './assets/js/Proveedor.js'; 
+import { TipoProveedor } from './assets/js/Tipo_proveedor.js';
+import { Articulo } from './assets/js/Articulo.js';
 
 //creo los objetos proveedor, articulo y tipo_proveedor
 const articulo1 = new Articulo('Articulo 1', 'proveedor1@ejemplo.com', 123456789);

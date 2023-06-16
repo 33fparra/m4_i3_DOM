@@ -6,10 +6,26 @@ export class TipoProveedor extends Proveedor {
     this.internacional = internacional;
     this.pais = pais;
   }
-
   //aca deberia traer el getInfoProveedor
+
+  getInternacional() {
+    return this.internacional;
+  }
+
+  setInternacional(internacional) {
+    this.internacional = internacional;
+  }
+
+  getPais() {
+    return this.pais;
+  }
+
+  setPais(pais) {
+    this.pais = pais;
+  }
+  
   getInfoProveedor(){
-  let tipoProveedor - "Nacional"; 
+  let tipoProveedor = "Nacional"; 
   if (this.internacional){
     tipoProveedor = 'Internacional';
   }  
